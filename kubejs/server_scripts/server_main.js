@@ -75,10 +75,10 @@ ServerEvents.recipes(e=>{
         Y: 'yttr:cage_lamp',
         S: 'powah:energy_hopper_spirited'
     })
-    e.recipes.alchemistry.Compactor('chemlib:silicon_dust', [
+    e.recipes.alchemistry.compactor('chemlib:silicon_dust', [
         'x16 chemlib:silicon'
     ])
-    e.recipes.alchemistry.Dissolver('x16 chemlib:silicon', [
+    e.recipes.alchemistry.dissolver('x16 chemlib:silicon', [
         '#c:silicon'
     ])
     e.recipes.create.sequenced_assembly([
