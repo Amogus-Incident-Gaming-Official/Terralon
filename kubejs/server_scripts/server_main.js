@@ -46,23 +46,44 @@ ServerEvents.recipes(e=>{
         '2x #c:nuggets'
     ])
 	
-	e.recipes.create.mechanical_crafting('techreborn:nuke', [
+    e.recipes.create.mechanical_crafting('techreborn:nuke', [
         ' LSL ',
         'NMRMN',
-		'NCACN',
+	'NCACN',
         'NFCFN',
         ' NNN '
     ], { 
-		A: 'ae2:singularity',
+	A: 'ae2:singularity',
         M: 'spectrum:moonstone_core',
         N: 'modern_industrialization:nuke',
         S: 'botania:red_string',
         C: 'mythicmetals:carmot_nuke_core',
         R: 'modern_industrialization:redstone_control_module',
         F: 'techreborn:fusion_control_computer',
-		L: Item.of('yttr:cage_lamp', '{Inverted:1b,LampColor:"red"}').strongNBT()
+	L: Item.of('yttr:cage_lamp', '{Inverted:1b,LampColor:"red"}').strongNBT()
     })
-    
+    e.custom({
+	type:'alchemistry:compactor',
+	input: {
+ 	  item: 'chemlib:silicon', count: 16
+	},
+	result:{
+	  item: 'chemlib:silicon_dust'
+		}
+	})
+    e.custom({
+	type:'alchemistry:dissolver',
+	input: {
+ 	  item: 'ae2:silicon'},
+	output:{
+	  rolls:1,
+	  weighted:false, 
+	  groups:[{
+		probability:100.0,
+		results:[{item: 'chemlib:silicon', count:16}]
+		}]}
+	})
+
     e.recipes.create.mechanical_crafting('kubejs:robot_upgrade_core', [
         'YSY',
         'HCH',
