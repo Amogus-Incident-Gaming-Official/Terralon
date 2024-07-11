@@ -75,12 +75,7 @@ ServerEvents.recipes(e=>{
         Y: 'yttr:cage_lamp',
         S: 'powah:energy_hopper_spirited'
     })
-    e.recipes.alchemistry.compactor('chemlib:silicon_dust', [
-        'x16 chemlib:silicon'
-    ])
-    e.recipes.alchemistry.dissolver('x16 chemlib:silicon', [
-        '#c:silicon'
-    ])
+    
     e.recipes.create.sequenced_assembly([
         Item.of('kubejs:robot_upgrade_kit')], 'kubejs:robot_upgrade_core', [
         e.recipes.createDeploying('kubejs:incomplete_robot_upgrade_kit', ['kubejs:incomplete_robot_upgrade_kit', 'techreborn:lapotronic_orb']),
