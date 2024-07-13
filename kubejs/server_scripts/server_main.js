@@ -34,8 +34,105 @@ ServerEvents.recipes(e=>{
         'minecraft:string',
         'minecraft:paper'
     ])
+    e.shapeless('1x modern_industrialization:methane_bucket',[
+		'1x chemlib:methane_bucket'
+		])
+    e.shapeless('1x techreborn:methane_bucket',[
+		'1x modern_industrialization:methane_bucket'
+		])
+    e.shapeless('1x chemlib:methane_bucket',[
+		'1x techreborn:methane_bucket'
+		])
+    e.shapeless('1x modern_industrialization:helium_bucket',[
+		'1x chemlib:helium_bucket'
+		])
+    e.shapeless('1x techreborn:helium_bucket',[
+		'1x modern_industrialization:helium_bucket'
+		])
+    e.shapeless('1x chemlib:helium_bucket',[
+		'1x techreborn:helium_bucket'
+		])
 
-    e.shapeless('3x kubejs:light_repair_pack', [
+    e.shapeless('1x modern_industrialization:hydrogen_bucket',[
+		'1x chemlib:hydrogen_bucket'
+		])
+    e.shapeless('1x techreborn:hydrogen_bucket',[
+		'1x modern_industrialization:hydrogen_bucket'
+		])
+    e.shapeless('1x chemlib:hydrogen_bucket',[
+		'1x techreborn:hydrogen_bucket'
+		])
+    e.shapeless('1x modern_industrialization:nitrogen_bucket',[
+		'1x chemlib:nitrogen_bucket'
+		])
+    e.shapeless('1x techreborn:nitrogen_bucket',[
+		'1x modern_industrialization:nitrogen_bucket'
+		])
+    e.shapeless('1x chemlib:nitrogen_bucket',[
+		'1x techreborn:nitrogen_bucket'
+		])
+
+    e.shapeless('1x modern_industrialization:ethylene_bucket',[
+		'1x chemlib:ethylene_bucket'
+		])
+    e.shapeless('1x chemlib:ethylene_bucket',[
+		'1x modern_industrialization:ethylene_bucket'
+		])
+    e.shapeless('1x modern_industrialization:argon_bucket',[
+		'1x chemlib:argon_bucket'
+		])
+    e.shapeless('1x chemlib:argon_bucket',[
+		'1x modern_industrialization:argon_bucket'
+		])
+    e.shapeless('1x modern_industrialization:chlorine_bucket',[
+		'1x chemlib:chlorine_bucket'
+		])
+    e.shapeless('1x chemlib:chlorine_bucket',[
+		'1x modern_industrialization:chlorine_bucket'
+		])
+    e.shapeless('1x modern_industrialization:ethanol_bucket',[
+		'1x chemlib:ethanol_bucket'
+		])
+    e.shapeless('1x chemlib:ethanol_bucket',[
+		'1x modern_industrialization:ethanol_bucket'
+		])
+    e.shapeless('1x modern_industrialization:hydrochloric_acid_bucket',[
+		'1x chemlib:hydrochloric_acid_bucket'
+		])
+    e.shapeless('1x chemlib:hydrochloric_acid_bucket',[
+		'1x modern_industrialization:hydrochloric_acid_bucket'
+		])
+    e.shapeless('1x modern_industrialization:sulfuric_acid_bucket',[
+		'1x chemlib:sulfuric_acid_bucket'
+		])
+    e.shapeless('1x chemlib:sulfuric_acid_bucket',[
+		'1x modern_industrialization:sulfuric_acid_bucket'
+		])
+    e.shapeless('1x modern_industrialization:oxygen_bucket',[
+		'1x chemlib:oxygen_bucket'
+		])
+    e.shapeless('1x chemlib:oxygen_bucket',[
+		'1x modern_industrialization:oxygen_bucket'
+		])
+    e.shapeless('1x modern_industrialization:acetylene_bucket',[
+		'1x chemlib:acetylene_bucket'
+		])
+    e.shapeless('1x chemlib:acetylene_bucket',[
+		'1x modern_industrialization:acetylene_bucket'
+		])
+    e.shapeless('1x techreborn:mercury_bucket',[
+		'1x chemlib:mercury_bucket'
+		])
+    e.shapeless('1x chemlib:mercury_bucket',[
+		'1x techreborn:mercury_bucket'
+		])
+    e.shapeless('1x techreborn:nitrogen_dioxide_bucket',[
+		'1x chemlib:nitrogen_dioxide_bucket'
+		])
+    e.shapeless('1x chemlib:nitrogen_dioxide_bucket',[
+		'1x techreborn:nitrogen_dioxide_bucket'
+		])
+    e .shapeless('3x kubejs:light_repair_pack', [
         '3x #c:nuggets',
         '2x #c:ingots'
     ])
@@ -71,6 +168,25 @@ ServerEvents.recipes(e=>{
 	  item: 'chemlib:silicon_dust'
 		}
 	})
+    e.custom({
+	type:'alchemistry:compactor',
+	input: {
+ 	  item: 'chemlib:sulfur', count: 16
+	},
+	result:{
+	  item: 'techreborn:sulfur_dust'
+		}
+	})
+    e.custom({
+	type:'alchemistry:compactor',
+	input: {
+ 	  item: 'chemlib:plutonium', count: 16
+	},
+	result:{
+	  item: 'modern_industrialization:plutonium_dust'
+		}
+	})
+
     e.custom({
 	type:'alchemistry:dissolver',
 	input: {
