@@ -599,11 +599,6 @@ hash = "68edb9c0371e1105377db6373e7ccf09275f91cc7ca961b2915b0b32955b9558"
 metafile = true
 
 [[files]]
-file = "mods/ephemera.pw.toml"
-hash = "a2493d5fdccea3ec60b57dbecf488d0cdac2234cc5e54ffc1d4d9e934b96f991"
-metafile = true
-
-[[files]]
 file = "mods/estrogen.pw.toml"
 hash = "2784d741c432a2cf16ba7bd11a75244cd75b30b5113d9def8c82784a58c28405"
 metafile = true
