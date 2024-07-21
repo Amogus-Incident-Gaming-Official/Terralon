@@ -709,8 +709,8 @@ hash = "34281666dfdd6e606095d4106fd33b66eb030d0b2864c255ec71b788064f2b3e"
 metafile = true
 
 [[files]]
-file = "mods/gravity-api-1.0.3-1.19.2.jar"
-hash = "f6ddf70eb79cf0cbd8ced46f1b31bfe8469bd897ebdbfbbea84feb4a797152dd"
+file = "mods/gravity-api-0.7.18-1.19.jar"
+hash = "36d89e6b91f69abf3848eadaa4015b11b78837f676bfe13a89a12b163d180332"
 
 [[files]]
 file = "mods/grieflogger.pw.toml"
