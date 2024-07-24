@@ -181,6 +181,10 @@ file = "kubejs/startup_scripts/startup_main.js"
 hash = "744a7c6f422ecdfda3c415bf6cff817e184c7e2f9a9efdac030498fd75dd374a"
 
 [[files]]
+file = "mods/Dried Bamboo-1.0.0.jar"
+hash = "8ebe4d3cf586fef8dd3a956ce8a1941ca208d6106dde345049a7c3f0d90795e7"
+
+[[files]]
 file = "mods/ExtraOriginsCompatibilityFix-1.0.0_1.16.5-1.20.1.jar"
 hash = "f892f3bc7718eaaed7d9dad45a3afac7bb8b3930d58b5c0d2dc8e896bb2383e3"
 
@@ -551,11 +555,6 @@ metafile = true
 [[files]]
 file = "mods/dramatic-doors.pw.toml"
 hash = "92dcd587a66356d3e321fef7e9537383aa8046a523f3275fb67457cf3fc98b3f"
-metafile = true
-
-[[files]]
-file = "mods/dried-bamboo.pw.toml"
-hash = "57c2ba077eebf596ff98fdf6c8a116b2a50ab721dfe605a48f7b86b275ef7538"
 metafile = true
 
 [[files]]
