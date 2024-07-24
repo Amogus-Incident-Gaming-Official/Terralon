@@ -1512,11 +1512,6 @@ hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
 metafile = true
 
 [[files]]
-file = "mods/ultimate-chess.pw.toml"
-hash = "e72d56959dfd55279add78508f8261cc434dedd657a52afbb0586e7c3bb06036"
-metafile = true
-
-[[files]]
 file = "mods/universal-enchants.pw.toml"
 hash = "1fd2c6bb48d1c99ecd5f3d7bcf1e9c8700481e85388e8709698e15f135026807"
 metafile = true
