@@ -1173,7 +1173,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "faefe3ad13a2d7315292919de7baca1abaac6f74be7cf3dc57a0deea31878cf5"
+hash = "4ab3ca7caeb9d5d533c490ca1269f2bb9dd8f5ae84827188e7a9e602c41c4111"
 metafile = true
 
 [[files]]
@@ -1499,6 +1499,11 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
+metafile = true
+
+[[files]]
+file = "mods/ultimate-chess.pw.toml"
+hash = "e72d56959dfd55279add78508f8261cc434dedd657a52afbb0586e7c3bb06036"
 metafile = true
 
 [[files]]
