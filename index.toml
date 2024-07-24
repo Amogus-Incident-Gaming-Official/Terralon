@@ -344,6 +344,11 @@ hash = "d0a4e84f7b58d0fe3fd03363c45e6890c29ea0020cf4b021c4fb238af10075d1"
 metafile = true
 
 [[files]]
+file = "mods/blockus.pw.toml"
+hash = "325e11e8d1cb80ae61039c8d490e6ab34b05dbc2ac57ee252ca6f17453c69afa"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "5f3ca16d00949c3630dec43f6bba5aa8751a6f232c75414d1137298accd056e8"
 metafile = true
@@ -546,6 +551,11 @@ metafile = true
 [[files]]
 file = "mods/dramatic-doors.pw.toml"
 hash = "92dcd587a66356d3e321fef7e9537383aa8046a523f3275fb67457cf3fc98b3f"
+metafile = true
+
+[[files]]
+file = "mods/dried-bamboo.pw.toml"
+hash = "57c2ba077eebf596ff98fdf6c8a116b2a50ab721dfe605a48f7b86b275ef7538"
 metafile = true
 
 [[files]]
