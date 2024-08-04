@@ -283,6 +283,11 @@ hash = "84c0488c1a1aae759c20bfcc3a6ea2a5379c777c414b4c8815f1cf97b78aa11e"
 metafile = true
 
 [[files]]
+file = "mods/armor-statues.pw.toml"
+hash = "d1606abb23931260434ff37f0f9ade3f0d364e20ac1b4a94c3b08ca2423a9dff"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "bf2adb4aeefb2c2f68002ff2f74e38c2a1e26b57c65977f12c68ae0a1c7bef0b"
 metafile = true
